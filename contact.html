@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link class="favicon" rel="short icon" href="cmfav.png">
+  </head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2 class="ctm">Contact Me</h2>
+          <p></p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="cmimg.jpg" style="width:100%" class="cmimg">
+          </div>
+          <div class="column">
+            <form action="#">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="field">Field</label>
+              <select id="field" name="field">
+                <option value="australia">Web Developer</option>
+                <option value="canada">Video Editor</option>
+                <option value="usa">Content Creation & Comedy</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

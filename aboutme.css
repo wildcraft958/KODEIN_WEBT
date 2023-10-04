@@ -1,0 +1,68 @@
+body{
+    background: url(abtback1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+div hr{
+    border: 0;
+    background-color: #fff;
+    height: 1.2px;
+}
+.hr1{
+    width: 20%;
+}
+section h1{
+    text-align: center;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+img{
+    margin: 20px 20px;
+    height: 300px;
+border-style: double;
+background: linear-gradient(purple,skyblue,green,red,yellow);
+border-width: 10px;
+float: left;
+}
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  #element{
+    padding-top: 36px;
+color: #fff;
+font-size: 30px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder;
+padding-left: 10%;
+  }
+.main-text{
+    display: flex;
+    justify-content: right;
+ background: linear-gradient(to right,white,orchid, coral, #edf7f6, #59d2fe,#fccb06,Greenyellow
+ );
+-webkit-background-clip: text;
+color: transparent;
+ max-width: 800px;
+ font-size: x-large;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+
+}
