@@ -3,6 +3,27 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+.preloader{
+    background: #000 url(ezgif-2-5763e2f602.gif) no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    background-size: 20%;
+    
+  }
+  .disappear{
+    animation: vanish 1s forwards;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
 div hr{
     border: 0;
     background-color: #fff;
