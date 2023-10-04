@@ -3,6 +3,8 @@
     padding: 0;
     overflow: none;
 }
+/* thinking of adding light and dark mode but due to time constraint, 
+acad load and since i was pasrt of NSSC i didnt get enough time*/
 :root{
 --primary color:#f2ecf8;
 --secondary color: ;
@@ -20,6 +22,7 @@ body{
     height: 64px;
     width: 64px;
     padding-left: 8px;
+    padding-right: 8px;
 }
 .hero{
     width:auto;
@@ -35,14 +38,18 @@ body{
 nav{
     width: auto;
     margin: auto;
-    
+    flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+nav>div{
+    display: flex;
+    flex-direction: row;
+}
 nav h4{
-    padding-right: 488px;
+    margin-top: 24px;
     font-size: 22px;
     font-stretch: expanded;
     color: #f2ecf8;
@@ -74,7 +81,7 @@ visibility: visible;
 nav ul li{
     display: inline;
     list-style: none;
-    margin: 10px 10px;
+    margin: 12px 10px;
 
 }
 nav ul li a{
@@ -92,7 +99,7 @@ nav ul li a:hover{
     margin-left: 8%;
 }
 .info h3{
-    font-size: 30px;
+    font-size: 29px;
     color:#f2ecf8;
     margin-bottom: 20px ;
 }
@@ -109,7 +116,7 @@ span{
     background:#212121;
 padding: 10px;
 text-decoration: none;
-color: #f2ecf8;
+color: yellow;
 display:inline-block;
 margin: 30px 0;
 border-radius: 5px;
@@ -144,9 +151,9 @@ width: 36%;
     }
   }
 .social-links{
-    z-index: 100;
     margin-left: 5.8%;
     margin-top: 2px;
+    position: relative;
 }
 .social-links a{
 
