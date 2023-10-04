@@ -5,14 +5,14 @@
 }
 /* thinking of adding light and dark mode but due to time constraint, 
 acad load and since i was pasrt of NSSC i didnt get enough time*/
-:root{
+/*:root{
 --primary color:#f2ecf8;
 --secondary color: ;
 }
 .light-theme{
     --primary color:;
 --secondary color: #222831;
-}
+}*/
 
 .preloader{
     background: #000 url(ezgif-2-5763e2f602.gif) no-repeat center center;
